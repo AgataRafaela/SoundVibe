@@ -376,7 +376,7 @@ button { font: inherit; }
   margin-bottom: 10px;
 }
 .feature-item h3 { font-size: 12px; line-height: 1.25; }
-.feature-item p { color: #aeb4cd; font-size: 9px; line-height: 1.45; margin-top: 7px; }
+.feature-item p { color: #aeb4cd; font-size: 10px; line-height: 1.45; margin-top: 7px; }
 
 /* BENEFITS */
 .section-light {
@@ -427,15 +427,20 @@ button { font: inherit; }
 
 .mini-benefits > div + div { padding-left: 18px; }
 .mini-benefits > div:last-child { border-right: 0; }
-.mini-benefits i { font-size: 20px; color: #ff18ad; margin-bottom: 3px; }
-.mini-benefits strong { font-size: 10px; }
-.mini-benefits span { color: #6b7189; font-size: 8px; line-height: 1.4; }
+.mini-benefits i { font-size: 40px; color: #ff18ad; margin-bottom: 3px; }
+.mini-benefits strong { font-size: 15px; }
+.mini-benefits span { color: #6b7189; font-size: 12px; line-height: 1.4; }
 
 .benefits-product {
   position: relative;
   min-height: 350px;
   display: grid;
   place-items: center;
+}
+
+.headphone-benefits {
+  width: 300px;
+  filter: drop-shadow(6px 0px 8px rgba(135, 35, 250, 0.397));
 }
 
 .product-placeholder-secondary {
@@ -555,6 +560,10 @@ button { font: inherit; }
   background:
     radial-gradient(circle at 50% 110%, #5b12ff 0, transparent 50%),
     linear-gradient(100deg, #ff0ba2 0%, #b51eff 50%, #ff3a87 100%);
+}
+
+.headphone-cta {
+  width: 150px;
 }
 
 .cta-glow {
@@ -773,6 +782,6 @@ button { font: inherit; }
   .secure-note { margin-left: 3px; }
   .mini-benefits { grid-template-columns: 1fr; gap: 18px; }
   .mini-benefits > div,
-  .mini-benefits > div + div { padding: 0; border-right: 0; }
+  .mini-benefits > div + div { padding: 0; align-items: center; }
   .feature-item { min-height: 145px; padding-inline: 8px; }
 }
