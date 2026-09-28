@@ -471,8 +471,8 @@ button { font: inherit; }
 }
 
 .tech-card > span {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   display: grid;
   place-items: center;
   border-radius: 11px;
@@ -487,7 +487,7 @@ button { font: inherit; }
 
 .tech-card strong,
 .tech-card small { display: block; }
-.tech-card strong { font-size: 10px; }
+.tech-card strong { font-size: 12px; }
 .tech-card small { color: #666c84; font-size: 10px; line-height: 1.3; margin-top: 2px; }
 
 /* TESTIMONIALS */
@@ -604,10 +604,10 @@ button { font: inherit; }
 .cta-benefits {
   display: flex;
   justify-content: flex-end;
-  gap: 28px;
+  gap: 30px;
 }
-.cta-benefits > div { display: flex; align-items: center; gap: 10px; font-size: 9px; font-weight: 600; }
-.cta-benefits i { font-size: 22px; }
+.cta-benefits > div { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; }
+.cta-benefits i { font-size: 32px; }
 
 /* FAQ */
 .faq {
@@ -657,10 +657,10 @@ button { font: inherit; }
 }
 
 .site-footer .brand { font-size: 20px; }
-.site-footer p { color: #7e879e; font-size: 9px; margin-top: 5px; margin-left: 44px; }
+.site-footer p { color: #7e879e; font-size: 11px; margin-top: 5px; margin-left: 44px; }
 
 .site-footer nav { display: flex; justify-content: center; gap: 20px; }
-.site-footer nav a { color: #b3b9cc; font-size: 9px; }
+.site-footer nav a { color: #b3b9cc; font-size: 12px; }
 .site-footer nav a:hover { color: white; }
 
 .socials { display: flex; justify-content: flex-end; gap: 18px; }
