@@ -531,27 +531,36 @@ button { font: inherit; }
 
 .person { display: flex; align-items: center; gap: 9px; }
 .avatar {
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
+  min-width: 32px;
+  min-height: 32px;
   border-radius: 50%;
-  background-size: cover;
-  background-position: center;
+  overflow: hidden;
+  background: #ddd;
+  flex-shrink: 0;
 }
-.avatar-one { background: linear-gradient(135deg, #f0b18b, #6f344b); }
-.avatar-two { background: linear-gradient(135deg, #e1ae7e, #26345e); }
-.avatar-three { background: linear-gradient(135deg, #dedede, #222); }
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
 .stars { color: #ffbf00; font-size: 11px; letter-spacing: 1px; }
 
 .testimonial-card blockquote {
   color: #d7d9e4;
-  font-size: 9px;
+  font-size: 15px;
   line-height: 1.55;
   margin: 16px 0 10px;
   flex: 1;
 }
-.testimonial-card > strong { font-size: 9px; }
-.testimonial-card > small { color: #8f96af; font-size: 8px; margin-top: 5px; }
-.testimonial-card > small i { color: #1789ff; }
+.testimonial-card > strong { font-size: 12px; }
+.testimonial-card > small { color: #8f96af; font-size: 10px; margin-top: 5px; }
+.testimonial-card > small i { color: #1789ff; font-size: 12px; }
 
 /* FINAL CTA */
 .final-cta {

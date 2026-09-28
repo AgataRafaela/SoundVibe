@@ -42,7 +42,6 @@ backTop.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// Pequena animação de entrada sem biblioteca externa.
 const revealObserver = new IntersectionObserver(
   entries => {
     entries.forEach(entry => {
