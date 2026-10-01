@@ -2,6 +2,17 @@
 
 Landing page com foco em **Web Design, página de vendas e conversão**. 
 
+## Funcionalidades
+- landing page focada em vendas e conversão
+- design responsivo para desktop, tablet e mobile
+- seção de apresentação do produto
+- destaque de oferta e preço
+- benefícios e diferenciais do produto
+- depoimentos de clientes
+- FAQ interativo
+- botões de chamada para ação (CTA)
+- botão para voltar ao topo
+
 ## Tecnologias usadas
 - HTML
 - CSS
@@ -9,13 +20,5 @@ Landing page com foco em **Web Design, página de vendas e conversão**.
 - Google Fonts: Inter + Caveat
 - Font Awesome para ícones
 
-## Estrutura
-
-- `index.html` — estrutura da página
-- `styles.css` — todo o visual e responsividade
-- `script.js` — menu mobile, navegação, botão voltar ao topo e animações
-- `assets/images/` — imagens usadas
-
-## Como abrir
-
-baixe o projeto e abra `index.html` diretamente no navegador ou use o Live Server no VS Code.
+#
+<img width="1351" height="767" alt="Captura de tela 2026-09-30 225805" src="https://github.com/user-attachments/assets/048ce662-796e-4c36-b5f6-a2d747447852" />
